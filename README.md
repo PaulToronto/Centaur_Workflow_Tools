@@ -2,7 +2,7 @@
 
 **"Half Human, Half AI, Fully Organized."**
 
-This repository contains the system architecture for managing hybrid Human-AI data science and learning projects. It is designed to solve the problem of **context loss** and **disorganized knowledge** when working with LLMs (like Gemini, ChatGPT, Claude).
+This repository contains the system architecture for managing hybrid Human-AI data science and learning projects. It is designed to solve the problem of **context loss** and **disorganized knowledge** when working with LLMs.
 
 ---
 
@@ -22,10 +22,16 @@ In V2, we separate **Execution** (Code) from **Memory** (Concepts).
 
 ## 📁 Repository Structure
 
+The Toolbox itself follows the **Centaur V2 Standard Structure**:
+
 ```text
 Centaur_Workflow_Tools/
-├── scripts/       # The 13 executable Bash tools (The Controller)
-└── docs/          # Detailed Quick-Reference guides for each tool
+├── scripts/           # The Controller (Executable Bash tools)
+├── docs/              # Quick-Reference guides
+├── knowledge_base/    # Architecture docs & Manuals (The Memory)
+├── notebooks/         # Maintenance scripts (The Execution)
+├── inputs/            # (Empty - Placeholder for standard)
+└── outputs/           # (Empty - Placeholder for standard)
 ```
 
 ---
